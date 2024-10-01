@@ -1,0 +1,57 @@
+*{
+  padding: 0;
+  margin: 0;
+}
+body{
+  background-color:lightgray;
+  background-size: cover;
+}
+.formsu:after{
+  content: '';
+  display: block;
+  width: 380px;
+  height: 350px;
+  box-shadow: 0 2px 100px;
+  position:absolute;
+  bottom: 15%;
+  z-index:-4;
+}
+
+.logo{
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+}
+#cart{
+  color: white;
+font-size: 60px;
+margin-left: 40%;
+margin-top: 15px;
+margin-bottom: 10px;
+}
+.formsu{
+  margin-left: 30%;
+margin-top: 40px;
+height: 550px;
+width: 400px;
+border-radius: 10px;
+background-color: antiquewhite;
+}
+#text1,#text2,#text3,#text4{
+  color: lightgrey;
+  font-size:20px;
+  border-radius: 10px;
+  border: 1px;
+}
+.name,.email,.address ,.phoneno ,.options{
+  text-align: center;
+  padding: 10px;
+}
+#butt1{
+  padding: 5px;
+  font-size: 20px;
+  margin-left: 40%;
+}
+.para{
+  padding-top: 10px;
+  padding-left:30%;
+}

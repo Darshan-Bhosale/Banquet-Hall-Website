@@ -1,0 +1,120 @@
+<html>
+<head>
+    <title>E-commerce Website</title>
+    <link rel="stylesheet" href="css/home.css">
+    </head>
+<body style="background-color: gainsboro">
+    <div id="wrapper">
+    <div id="header">
+        <div id="subheader">
+        <div class="container">
+            <p>World fastest online hall booking place</p>
+            <a href="#">Download App</a><a href="#">Help</a>
+            </div>
+        </div>
+        <!main-header>
+        <div id="main-header">
+        <div id="logo">
+            <span id="ist">Bindass</span><span id="list">bookkaro.in</span>
+            </div>
+            <!search box>
+            <div id="search">
+            <form action="">
+                <input class="search-area" type="text" name="text" placeholder="search here">
+                <input class="search-button" type="submit" name="submit" value="Search">
+                </form></div>
+            <!user menu>
+            <div id="user-menu">
+            <li><a href="#">Cart</a></li>
+            <li><a href="Log-in.html">Login</a></li>    
+            </div>
+        </div>
+        </div>
+        <!navigation bar>
+        <div id="navigation-bar">
+        <nav>
+            <a href="Home.html" class="active">Home</a>
+            <a href="Mumbai-hall.html">Mumbai Hall</a>
+            <a href="Navi-Mumbai-hall.html">Navi Mumbai Hall</a>
+            <a href="#">About</a>
+        </nav>
+        </div>
+        <!home slider/banner>
+        <div id="myslider">
+            <img class="myslides" src="images/The%20Jade%20garden%20worli10.jpg">
+            <img class="myslides" src="images/Shagun%20Party%20chembur5.jpg">
+            <img class="myslides" src="images/Shagun%20Party%20chembur2.jpg">  
+            <img class="myslides" src="images/The%20Jade%20garden%20worli6.jpg">
+        </div>
+        <!mumbai hall box>
+        <div class="container1">
+        <div id="heading-block">
+            <h2>Mumbai Hall</h2>
+        </div>
+            <!first hall box>
+            <div class="catbox">
+                <img class="hall1" src="images/The%20Jade%20garden%20worli7.jpg">
+                <a href="Worli.html">Jade Garden Worli</a>    
+            </div>
+            <!second hall box>
+            <div class="catbox">
+                <img class="hall1" src="images/Shagun%20Party%20chembur4.jpg">
+                <a href="Chembur.html">Shagun Hall Chembur</a>    
+            </div>
+            <!third hall box>
+            <div class="catbox">
+                <img class="hall1" src="images/Golden%20leaf%20malad1.jpg">
+                <a href="Malad.html">Golden Left Malad</a>     
+            </div>
+            <!view more...>
+            <div class="catbox">
+            <a href="Mumbai-hall.html" class="view-more">View All&raquo</a>
+            </div>
+        </div>
+        <!navi mumbai hall box>
+        <div class="container1">
+        <div id="heading-block">
+            <h2>Navi Mumbai Hall</h2>
+        </div>
+            <!first hall box>
+            <div class="catbox">
+                <img class="hall1" src="images/four-points-by-sheraton-vashi2.jpg">
+                <a href="Vashi.html">Four Point By Sheraton Vashi</a>    
+            </div>
+            <!second hall box>
+            <div class="catbox">
+                <img class="hall1" src="images/kakaji-ni-wadi-panvel2.jpg">
+                <a href="Panvel.html">Kakaji-ni-wadi Panvel</a>    
+            </div>
+            <!third hall box>
+            <div class="catbox">
+                <img class="hall1" src="images/mangal-sabhagruha-belapur1.jpg">
+                <a href="Belapur.html">Mangal Sabhagruha Belapur</a>     
+            </div>
+            <!view more...>
+            <div class="catbox">
+            <a href="Navi-Mumbai-hall.html" class="view-more">View All&raquo</a>
+            </div>
+        </div>
+    </div>
+    <footer>
+    <p style="color: white">E-mail: darshanbhosale5384@gmail.com / akshyadurge@gmail.com <br>Contact No.: +918451011900 / +919920261529</p> 
+    </footer>
+    <script>
+            var myIndex = 0;
+            carousel();
+            function carousel() {
+                var i;
+                var x = document.getElementsByClassName("myslides");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";  
+                }
+                myIndex++;
+                if (myIndex > x.length) {myIndex = 1}    
+                x[myIndex-1].style.display = "block";  
+                setTimeout(carousel, 5000);
+            }
+        </script>
+    </body>
+
+</html>

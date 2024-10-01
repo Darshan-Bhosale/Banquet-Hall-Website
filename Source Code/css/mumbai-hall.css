@@ -1,0 +1,188 @@
+#wrapper{font-family: tahoma;}
+.container{width: 90%;
+margin:0 auto; 
+}
+#subheader{
+    width: 100%;
+    height: 30px;
+    background: green;
+    color: white;
+    margin-top: -15px;
+} 
+#subheader p{
+    float: left;
+    margin-top: 7px;
+}
+#subheader a{
+    float: right;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/*logo styling*/
+#main-header{
+    width: 100%;
+    height: 70px;
+    background: lightgreen;
+    float: left;
+    margin-top: -15px;
+}
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    float: left
+}
+#ist{
+    color: black;
+    font-size: 35px;
+    font-weight:bold;
+    margin-left: 15px;
+    font-family: cursive;
+}
+#list{
+ color: black;
+    font-size: 25px;
+    font-weight:bold;
+    margin-left: 5px;
+    font-family: cursive;   
+}
+/*Search styling*/
+#search{
+    width: 650px;
+    float: left;
+    padding: 20px;
+    margin-left: 50px;
+}
+.search-area{
+    width: 650px;
+    height: 35px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 15px;
+}
+.search-button{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: brown;
+    margin-left: -100.5px;
+}
+/*user menu styling*/
+#user-menu{
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+}
+/* user menu list styling*/
+#user-menu li{
+    float: left;
+    width: 140px;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    border-left: 1px solid black;
+}
+#user-menu li:hover{
+    font-size: 30px;
+    transition: all .5s ease;
+}
+#user-menu li a{
+    color: white;
+    text-decoration: none;
+}
+/*navigation bar styling*/
+#navigation-bar{
+    width: 100%;
+    height: 25px;
+    background: lightgreen;
+    float: left;
+    box-shadow: 10px 14px 50px 2px;
+}
+nav{
+    width: 70%;
+    margin: 0 auto;
+}
+nav a{
+    margin-left: 110px;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+    transition: all .7s ease;
+}
+nav a.active{
+    color: red;
+}
+/*mumbai hall boxes*/
+.container1{
+    width: 61%;
+    margin: 150 auto;
+}
+.catbox{
+    margin-bottom: 50px;
+    box-shadow: 10px 0px 30px 1px;
+}
+table{
+    height: 210px;
+    width: 100%;
+    background-color: azure;
+}
+.hall1{
+    width: 231.91px;
+    height:210px;
+}
+#cen1{
+    text-decoration: none;
+    font-size: 25px;
+    font-style: Bold;
+    color: black;
+}
+#cen1:hover{
+    color: red;
+}
+.cen{
+    text-decoration: none;
+}
+table p{
+    margin-top: 0px;
+    color: dimgray;
+}
+table hr{
+    margin-top: 0px;
+}
+table h4{
+    margin-top: 0px;
+    color: dimgray;
+}
+table ul{
+    margin-top: 0px;
+    list-style-type: none;
+    color: dimgray;
+}
+#see{
+    text-decoration: none;
+    margin-left: 20px;
+    width: 75px;
+    height: 25px;
+    border-style: outset;
+    border-radius: 5px;
+    color: white;
+    background: green;
+    padding: 5px;
+}
+/*------footer-------*/
+footer{
+    text-align: center;
+    background-color: black;
+    position: relative;
+    padding: 5px;
+    height: 65px;
+    clear: both;
+}
+

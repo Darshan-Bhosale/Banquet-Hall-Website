@@ -1,0 +1,207 @@
+#wrapper{font-family: tahoma;}
+.container{width: 90%;
+margin:0 auto; 
+}
+#subheader{
+    width: 100%;
+    height: 30px;
+    background: green;
+    color: white;
+    margin-top: -15px;
+} 
+#subheader p{
+    float: left;
+    margin-top: 7px;
+}
+#subheader a{
+    float: right;
+    line-height: 30px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+/*logo styling*/
+#main-header{
+    width: 100%;
+    height: 70px;
+    background: lightgreen;
+    float: left;
+    margin-top: -15px;
+}
+#logo{
+    width: 250px;
+    margin-top: 10px;
+    float: left
+}
+#ist{
+    color: black;
+    font-size: 35px;
+    font-weight:bold;
+    margin-left: 15px;
+    font-family: cursive;
+}
+#list{
+ color: black;
+    font-size: 25px;
+    font-weight:bold;
+    margin-left: 5px;
+    font-family: cursive;   
+}
+/*Search styling*/
+#search{
+    width: 650px;
+    float: left;
+    padding: 20px;
+    margin-left: 50px;
+}
+.search-area{
+    width: 650px;
+    height: 35px;
+    background: white;
+    border: none;
+    border-radius: 10px;
+    float: left;
+    padding-left: 15px;
+}
+.search-button{
+    width: 100px;
+    height: 35px;
+    border-radius: 10px;
+    border: none;
+    color: white;
+    background: brown;
+    margin-left: -100.5px;
+}
+/*user menu styling*/
+#user-menu{
+    width: 300px;
+    float: right;
+    margin-top: 20px;
+}
+/* user menu list styling*/
+#user-menu li{
+    float: left;
+    width: 140px;
+    text-align: center;
+    list-style: none;
+    font-size: 25px;
+    border-left: 1px solid black;
+}
+#user-menu li:hover{
+    font-size: 30px;
+    transition: all .5s ease;
+}
+#user-menu li a{
+    color: white;
+    text-decoration: none;
+}
+/*navigation bar styling*/
+#navigation-bar{
+    width: 100%;
+    height: 25px;
+    background: lightgreen;
+    float: left;
+    box-shadow: 10px 14px 50px 2px;
+}
+nav{
+    width: 70%;
+    margin: 0 auto;
+}
+nav a{
+    margin-left: 110px;
+    color: black;
+    text-decoration: none;
+}
+nav a:hover{
+    color: red;
+    transition: all .7s ease;
+}
+nav a.active{
+    color: red;
+}
+/*slider*/
+#myslider{
+    width: 100%;
+    max-width: 100%;
+    float: left;
+}
+#myslides{
+    display: none;
+}
+div img{
+    width: 100%;
+    height: 600px;
+}
+.container1{
+    width: 95%;
+    margin: 0 auto;
+}
+/*mumbai hall heading*/
+#heading-block{
+    width: 100%;
+    height: auto;
+    float: left;
+    color: green;
+    font-size: 15px;
+    margin: 10px;
+}
+#heading-block h2{
+    line-height: 10px;
+    border-left: 10px solid green;
+    padding-left: 10px;
+}
+/*mumbai hall boxes*/
+.hall1{
+    width: 250px;
+    height:250px;
+}
+.catbox{
+    float: left;
+    width: 250px;
+    height: 250px;
+    margin: 10 20 30 40;
+}
+.catbox a{
+    width: 250px;
+    height: 35px;
+    line-height: 35px;
+    background: rgba(0,0,0,0.6);
+    color: white;
+    display: block;
+    bottom: 130px;
+    position:relative;
+    text-align: center;
+    text-decoration: none;
+}
+.catbox a:hover{
+    transform: scale(1.1,1.1);
+    transition: all .5s ease;
+}
+.catbox:hover img{
+    transform: scale(1.1,1.1);
+    transition: all .5s ease;
+}
+/*view-more button*/
+.view-more{
+    text-decoration: none;
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #ddd;
+    color: black;
+    background-color: #4CAF50;
+    color: white;
+    margin-top:240px;
+}
+.view-more:hover{
+    transform: scale(1.1,1.1);
+    transition: all .5s ease;
+}
+/*------footer-------*/
+footer{
+    text-align: center;
+    background-color: black;
+    position: relative;
+    padding: 5px;
+    height: 65px;
+    clear: both;
+}
